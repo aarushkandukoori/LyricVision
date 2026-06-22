@@ -133,6 +133,10 @@ export default function App() {
           Paste lyrics and generate five album covers — one from each NLP-to-image
           pipeline version (V1 through V5).
         </p>
+        <p className="disclaimer">
+          If your lyrics produce a prompt that violates OpenAI&apos;s terms, image
+          generation may be blocked or fail for that run.
+        </p>
       </header>
 
       <section className="input-panel">
