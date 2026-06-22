@@ -69,6 +69,15 @@ body {
   font-size: 1.05rem;
 }
 
+.disclaimer {
+  color: var(--muted);
+  max-width: 540px;
+  margin: 0.75rem auto 0;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  opacity: 0.85;
+}
+
 .input-panel {
   background: var(--surface);
   border: 1px solid var(--border);
